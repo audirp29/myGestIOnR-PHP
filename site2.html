@@ -1,0 +1,67 @@
+<html>
+<body>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+<style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button4 {border-radius: 25px;}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body>
+<h2>myGestIOnR->PHP</h2>
+<!--<button class="button button4">afficher</button>
+<a action="index.php" class="button button4">afficher</a>
+<form method="post" action="index.php">
+<p>test</p>
+<input type="texte" name="nom" />
+<a <button href="https://google.fr" class="button button4" style="vertical-align:middle"><span>afficher </span></button></a>
+<a <button type="submit" class="button button4" style="vertical-align:middle"><span>afficher </span></button></a>
+</form>-->
+<form method="post" action="index2.php">
+<p>affichage des machines en details</p>
+<input type="submit" value="afficher" </input>
+<a href="site.html"><img src="a.png" class="logo" title="retour"></a>
+<a href="siteajout.html"><img src="a.png" class="logo" title="ajout"></a>
+<a href="sitesup.html"><img src="a.png" class="logo" title="suppr"></a>
+<a href="sitemod.html"><img src="a.png" class="logo" title="modif"></a>
+
+
+</form>
+</body>
+</html>
